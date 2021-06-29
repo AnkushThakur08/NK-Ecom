@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div className="row" style={{ marginTop: "1em" }}>
       <div className="col-3">
-        {/* <div className="title">
+        { /* <div className="title">
           <h1 className="title-heading">Search</h1>
         </div>
 

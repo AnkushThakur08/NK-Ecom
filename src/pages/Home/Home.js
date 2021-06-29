@@ -10,11 +10,13 @@ import Footer from "../../components/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../Home/Home.css";
 import Base from "../../components/Base";
+import ProductShowCaseSection from "../../components/ProductShowCaseSection";
 
 const Home = () => {
   return (
     <div>
       <Base />
+      <ProductShowCaseSection />
       {/*     <NavBar />
       <Header />
       <HeroSection />
