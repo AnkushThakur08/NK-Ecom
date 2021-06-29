@@ -9,15 +9,17 @@ import Footer from "../../components/Footer";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../Home/Home.css";
+import Base from "../../components/Base";
 
 const Home = () => {
   return (
     <div>
-      <NavBar />
+      <Base />
+      {/*     <NavBar />
       <Header />
       <HeroSection />
       <Product />
-      <Footer />
+<Footer /> */}
       {/* <div className="row" style={{ margiTop: "1em" }}>
         <div className="col-12">
           <img

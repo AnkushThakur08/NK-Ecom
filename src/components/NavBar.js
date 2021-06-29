@@ -1,119 +1,61 @@
 import React from "react";
+import { withRouter, Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
-    <div>
-      <div className="row" style={{ backgroundColor: "#58ababe0" }}>
-        <div
-          className="col-12"
-          style={{
-            color: "white",
-            fontFamily: "auto",
-            textAlignLast: "center",
-          }}
-        >
-          NK International
-        </div>
-      </div>
-
-      <div
-        className="row"
-        style={{
-          backgroundColor: "#2e7373e0",
-          height: "9%",
-          padding: "1.2em",
-        }}
+    <nav className="navbar navbar-expand-lg navbar-light bg-light pt-0">
+      <button
+        className="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
       >
-        <div
-          className="col-1"
-          style={{
-            color: "white",
-            textAlignLast: "center",
-            fontFamily: "auto",
-            alignSelf: "center",
-            borderRight: "1px solid rgba(0,0,0,0.07)",
-          }}
-        >
-          Home
-        </div>
-
-        <div
-          className="col-1"
-          style={{
-            color: "white",
-            textAlignLast: "center",
-            fontFamily: "auto",
-            alignSelf: "center",
-            borderRight: "1px solid rgba(0,0,0,0.07)",
-          }}
-        >
-          Women
-        </div>
-
-        <div
-          className="col-1"
-          style={{
-            color: "white",
-            textAlignLast: "center",
-            fontFamily: "auto",
-            alignSelf: "center",
-            borderRight: "1px solid rgba(0,0,0,0.07)",
-          }}
-        >
-          Men
-        </div>
-
-        <div
-          className="col-1"
-          style={{
-            color: "white",
-            textAlignLast: "center",
-            fontFamily: "auto",
-            alignSelf: "center",
-            borderRight: "1px solid rgba(0,0,0,0.07)",
-          }}
-        >
-          Kids
-        </div>
-
-        <div
-          className="col-6"
-          style={{
-            color: "white",
-            textAlignLast: "center",
-            fontFamily: "auto",
-            alignSelf: "center",
-            borderRight: "1px solid rgba(0,0,0,0.07)",
-          }}
-        ></div>
-
-        <div
-          className="col-1"
-          style={{
-            color: "white",
-            textAlignLast: "center",
-            fontFamily: "auto",
-            alignSelf: "center",
-            borderRight: "1px solid rgba(0,0,0,0.07)",
-          }}
-        >
-          Cart
-        </div>
-
-        <div
-          className="col-1"
-          style={{
-            color: "white",
-            textAlignLast: "center",
-            fontFamily: "auto",
-            alignSelf: "center",
-            borderRight: "1px solid rgba(0,0,0,0.07)",
-          }}
-        >
-          Sign in
-        </div>
+        <span className="navbar-toggler-icon"></span>
+      </button>
+      <div
+        className="collapse navbar-collapse justify-content-between p-2"
+        id="navbarSupportedContent"
+        style={{ backgroundColor: "#2e7373e0" }}
+      >
+        <ul className="navbar-nav mr-auto">
+          <li className="nav-item active px-4">
+            <Link className="nav-link" to="#!">
+              Home
+            </Link>
+          </li>
+          <li className="nav-item active px-4">
+            <Link className="nav-link" to="#!">
+              Women
+            </Link>
+          </li>
+          <li className="nav-item active px-4">
+            <Link className="nav-link" to="#!">
+              Men
+            </Link>
+          </li>
+          <li className="nav-item active px-4">
+            <Link className="nav-link" to="#!">
+              Kids
+            </Link>
+          </li>
+        </ul>
+        <ul className="navbar-nav nav-right av-right ml-auto mr-2">
+          <li className="nav-item px-4">
+            <Link className="nav-link" to="#!">
+              Cart
+            </Link>
+          </li>
+          <li className="nav-item px-4">
+            <Link className="nav-link" to="#!">
+              Signin
+            </Link>
+          </li>
+        </ul>
       </div>
-    </div>
+    </nav>
   );
 };
 

@@ -2,94 +2,124 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="footer">
-      <div
-        className="row"
-        style={{ borderTop: "1px solid", borderTopColor: "#f5e8ec" }}
-      ></div>
-      <div
-        id="footer-div"
-        className="row"
-        style={{
-          marginTop: "0.1em",
-          backgroundColor: "beige",
-          height: "100%",
-        }}
-      >
-        <div
-          className="col-3"
-          style={{
-            color: "#a09e9e",
-            backgroundColor: "beige",
-            textAlignLast: "center",
-            fontFamily: "auto",
-            alignSelf: "center",
-            borderLeft: "1px solid rgba(0,0,0,0.07)",
-            marginTop: "-30em",
-          }}
-        >
-          POLICY
-          <div>Privacy Policy</div>
-          <div>Terms of Use</div>
-          <div>Return Policy</div>
-          <div>Report Abuse</div>
-        </div>
-        <div
-          className="col-3"
-          style={{
-            color: "#a09e9e",
-            backgroundColor: "beige",
-            textAlignLast: "center",
-            fontFamily: "auto",
-            alignSelf: "center",
-            borderLeft: "1px solid rgba(0,0,0,0.07)",
-            marginTop: "-30em",
-          }}
-        >
-          ABOUT US
-          <div>Brands</div>
-          <div>F. A.Qs</div>
-          <div>Career </div>
-          <div> Career </div>
-        </div>
-        <div
-          className="col-3"
-          style={{
-            color: "#a09e9e",
-            textAlignLast: "center",
-            backgroundColor: "beige",
-            fontFamily: "auto",
-            alignSelf: "center",
-            borderLeft: "1px solid rgba(0,0,0,0.07)",
-            marginTop: "-30em",
-          }}
-        >
-          CATEGORIES
-          <div>Clothing and Fashion</div>
-          <div>Men</div>
-          <div>Women</div>
-          <div>Kids</div>
-        </div>
-        <div
-          className="col-3"
-          style={{
-            color: "#a09e9e",
-            backgroundColor: "beige",
-            textAlignLast: "center",
-            fontFamily: "auto",
-            alignSelf: "center",
-            borderLeft: "1px solid rgba(0,0,0,0.07)",
-            marginTop: "-30em",
-          }}
-        >
-          CONNECT WITH US
-          <div>Address</div>
-          <div>Testimonials</div>
-          <div>SiteMap</div>
-          <div>SiteMap</div>
+    <footer className="text-center text-lg-start footer-main">
+      <div className="container p-4">
+        <div className="row">
+          <div
+            className="col-lg-3 col-md-6 mb-4 mb-md-0 d-flex flex-column align-items-center"
+            style={{ borderLeft: "1px solid rgba(0, 0, 0, 0.07)" }}
+          >
+            <h5 className="text-uppercase">POLICY</h5>
+            <ul className="list-unstyled mb-0">
+              <li>
+                <a href="#!" className="text-dark">
+                  Privacy Policy
+                </a>
+              </li>
+              <li>
+                <a href="#!" className="text-dark">
+                  Terms of Use
+                </a>
+              </li>
+              <li>
+                <a href="#!" className="text-dark">
+                  Return Policy
+                </a>
+              </li>
+              <li>
+                <a href="#!" className="text-dark">
+                  Report Abuse
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div
+            className="col-lg-3 col-md-6 mb-4 mb-md-0 d-flex flex-column align-items-center"
+            style={{ borderLeft: "1px solid rgba(0, 0, 0, 0.07)" }}
+          >
+            <h5 className="text-uppercase">ABOUT US</h5>
+            <ul className="list-unstyled mb-0">
+              <li>
+                <a href="#!" className="text-dark">
+                  Brands
+                </a>
+              </li>
+              <li>
+                <a href="#!" className="text-dark">
+                  F. A.Qs
+                </a>
+              </li>
+              <li>
+                <a href="#!" className="text-dark">
+                  Career
+                </a>
+              </li>
+              <li>
+                <a href="#!" className="text-dark">
+                  Career
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div
+            className="col-lg-3 col-md-6 mb-4 mb-md-0 d-flex flex-column align-items-center"
+            style={{ borderLeft: "1px solid rgba(0, 0, 0, 0.07)" }}
+          >
+            <h5 className="text-uppercase">CATEGORIES</h5>
+            <ul className="list-unstyled mb-0">
+              <li>
+                <a href="#!" className="text-dark">
+                  Clothing
+                </a>
+              </li>
+              <li>
+                <a href="#!" className="text-dark">
+                  Men
+                </a>
+              </li>
+              <li>
+                <a href="#!" className="text-dark">
+                  Women
+                </a>
+              </li>
+              <li>
+                <a href="#!" className="text-dark">
+                  Kids
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div
+            className="col-lg-3 col-md-6 mb-4 mb-md-0 d-flex flex-column align-items-center"
+            style={{ borderLeft: "1px solid rgba(0, 0, 0, 0.07)" }}
+          >
+            <h5 className="text-uppercase">CONNECT WITH US</h5>
+            <ul className="list-unstyled mb-0">
+              <li>
+                <a href="#!" className="text-dark">
+                  Address
+                </a>
+              </li>
+              <li>
+                <a href="#!" className="text-dark">
+                  Testimonials
+                </a>
+              </li>
+              <li>
+                <a href="#!" className="text-dark">
+                  SiteMap
+                </a>
+              </li>
+              <li>
+                <a href="#!" className="text-dark">
+                  SiteMap
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
 
