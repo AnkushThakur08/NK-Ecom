@@ -1,11 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import { withRouter, Link } from "react-router-dom";
 
 const NavBar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggle = () => setIsOpen(!isOpen);
+
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light pt-0">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light pt-0 ">
       <button
-        className="navbar-toggler"
+        className="navbar-toggler d-flex d-md-none flex-column align-items-end"
         type="button"
         data-toggle="collapse"
         data-target="#navbarSupportedContent"
@@ -13,7 +17,7 @@ const NavBar = () => {
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span className="navbar-toggler-icon"></span>
+        <span className="navbar-toggler ">Menu</span>
       </button>
       <div
         className="collapse navbar-collapse justify-content-between p-2"
