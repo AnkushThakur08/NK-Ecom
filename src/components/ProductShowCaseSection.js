@@ -5,7 +5,7 @@ import product2 from "../assets/Product2.jpeg";
 
 const ProductShowCaseSection = () => {
   return (
-    <div className="row my-3">
+    <div className="row my-3 w-100">
       <div className="col-12 col-sm-12 col-md-3">
         <ProductCart img={product1} title="T-Shirt" />
       </div>
