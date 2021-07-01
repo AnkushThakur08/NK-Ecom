@@ -12,7 +12,7 @@ const ProductShowCaseSection = () => {
       </div>
 
       <div className="col-12 col-sm-12 col-md-3 ">
-        <ProductCart img={product} title="Shirt" />
+        <ProductCart img={product2} title="Shirt" />
       </div>
 
       <div className="col-12 col-sm-12 col-md-3 ">

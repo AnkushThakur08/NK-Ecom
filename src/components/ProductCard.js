@@ -17,7 +17,7 @@ const ProductCart = ({ img, title }) => {
       <img
         src={img}
         className="card-img-top overflow-hidden"
-        style={{ width: "100%", height: "60%", height: "15vw" }}
+        style={{ maxHeight: "100%", maxWidth: "100%" }}
         alt="product"
       />
       <div className="card-body">

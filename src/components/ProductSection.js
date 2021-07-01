@@ -218,7 +218,7 @@ const ProductSection = () => {
         </h1>
         <div className="row my-3">
           <div className="col-12 col-sm-12 col-md-6 ">
-            <ProductCart img={product} title="Shirt" />
+            <ProductCart img={product2} title="Shirt" />
           </div>
 
           <div className="col-12 col-sm-12 col-md-6 ">
@@ -319,6 +319,7 @@ const ProductSection = () => {
                 </button>
               </h5>
             </div>
+
             <div
               id="collapseNine"
               class="collapse"
@@ -330,6 +331,29 @@ const ProductSection = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div
+          className="d-flex justify-content-center flex-column align-items-center pb-4 mt-4"
+          style={{
+            backgroundColor: "#2e7373e0",
+          }}
+        >
+          <label
+            style={{
+              color: "white",
+              fontSize: "30px",
+              fontStyle: "italic",
+              fontFamily: "auto",
+              marginLeft: ".1em",
+              marginTop: "1em",
+            }}
+          >
+            Free Shipping!
+          </label>
+          <br />
+          <button type="button" className="btn btn-outline-light">
+            Click here
+          </button>
         </div>
       </div>
 
