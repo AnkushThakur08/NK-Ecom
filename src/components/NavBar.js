@@ -2,10 +2,6 @@ import React, { useState } from "react";
 import { withRouter, Link } from "react-router-dom";
 
 const NavBar = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggle = () => setIsOpen(!isOpen);
-
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light pt-0 ">
       <button
@@ -26,36 +22,36 @@ const NavBar = () => {
       >
         <ul className="navbar-nav mr-auto">
           <li className="nav-item active px-4">
-            <Link className="nav-link" to="#!">
+            <a className="nav-link" href="#!">
               Home
-            </Link>
+            </a>
           </li>
           <li className="nav-item active px-4">
-            <Link className="nav-link" to="#!">
+            <a className="nav-link" href="#!">
               Women
-            </Link>
+            </a>
           </li>
           <li className="nav-item active px-4">
-            <Link className="nav-link" to="#!">
+            <a className="nav-link" href="#!">
               Men
-            </Link>
+            </a>
           </li>
           <li className="nav-item active px-4">
-            <Link className="nav-link" to="#!">
+            <a className="nav-link" href="#!">
               Kids
-            </Link>
+            </a>
           </li>
         </ul>
         <ul className="navbar-nav nav-right av-right ml-auto mr-2">
           <li className="nav-item px-4">
-            <Link className="nav-link" to="#!">
+            <a className="nav-link" href="#!">
               Cart
-            </Link>
+            </a>
           </li>
           <li className="nav-item px-4">
-            <Link className="nav-link" to="#!">
+            <a className="nav-link" href="#!">
               Signin
-            </Link>
+            </a>
           </li>
         </ul>
       </div>
