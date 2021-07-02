@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/NK-Ecom/static/css/main.f53bf2ec.chunk.css",
+    "main.js": "/NK-Ecom/static/js/main.ef7ac05b.chunk.js",
+    "main.js.map": "/NK-Ecom/static/js/main.ef7ac05b.chunk.js.map",
+    "runtime-main.js": "/NK-Ecom/static/js/runtime-main.da0eab69.js",
+    "runtime-main.js.map": "/NK-Ecom/static/js/runtime-main.da0eab69.js.map",
+    "static/css/2.d45d6843.chunk.css": "/NK-Ecom/static/css/2.d45d6843.chunk.css",
+    "static/js/2.f9c4a807.chunk.js": "/NK-Ecom/static/js/2.f9c4a807.chunk.js",
+    "static/js/2.f9c4a807.chunk.js.map": "/NK-Ecom/static/js/2.f9c4a807.chunk.js.map",
+    "index.html": "/NK-Ecom/index.html",
+    "static/css/2.d45d6843.chunk.css.map": "/NK-Ecom/static/css/2.d45d6843.chunk.css.map",
+    "static/css/main.f53bf2ec.chunk.css.map": "/NK-Ecom/static/css/main.f53bf2ec.chunk.css.map",
+    "static/js/2.f9c4a807.chunk.js.LICENSE.txt": "/NK-Ecom/static/js/2.f9c4a807.chunk.js.LICENSE.txt",
+    "static/media/Product1.7aba91e9.jpeg": "/NK-Ecom/static/media/Product1.7aba91e9.jpeg",
+    "static/media/Product2.60a42206.jpeg": "/NK-Ecom/static/media/Product2.60a42206.jpeg",
+    "static/media/banner.b2c33a5a.jpg": "/NK-Ecom/static/media/banner.b2c33a5a.jpg",
+    "static/media/product.83d509e0.jpg": "/NK-Ecom/static/media/product.83d509e0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.da0eab69.js",
+    "static/css/2.d45d6843.chunk.css",
+    "static/js/2.f9c4a807.chunk.js",
+    "static/css/main.f53bf2ec.chunk.css",
+    "static/js/main.ef7ac05b.chunk.js"
+  ]
+}
